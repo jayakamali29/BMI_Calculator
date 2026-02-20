@@ -1,0 +1,91 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: url("https://i.pinimg.com/1200x/1c/c1/41/1cc141312b6804469abdd50ae8dcf48e.jpg")
+    no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bmi-container {
+  width: 400px;
+  padding: 30px;
+  border-radius: 15px;
+
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  color: black;
+}
+
+
+.bmi-container h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.bmi-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Select Dropdown */
+.bmi-container select {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+
+.bmi-container input {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+
+.bmi-container button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #e0e0e0;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s ease;
+  color:black;
+}
+
+.bmi-container button:hover {
+  background-color: #cfcfcf;
+}
+
+
+.result-box {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  text-align: center;
+  color:black;
+}
+
+
+.result-box img {
+  width: 220px;       
+  height: auto;       
+  max-width: 100%;   
+  margin-top: 15px;
+}
+
